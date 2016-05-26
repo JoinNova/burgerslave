@@ -5,7 +5,7 @@ import cookielib
 import urllib
 import urllib2
 
-BASE_URL = "https://kor.tellburgerking.com/";
+BASE_URL = "https://kor.tellburgerking.com/"
 
 jar = cookielib.FileCookieJar("cookies")
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(jar))
